@@ -1,0 +1,67 @@
+.App {
+  text-align: left;
+  background: linear-gradient(180deg, #f8fafc 0%, #e6eef8 100%);
+  min-height: 100vh;
+  color: #1f2937;
+}
+
+.app-container {
+  padding: 1.5rem;
+}
+
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.brand-logo {
+  height: 48px;
+  width: 48px;
+  object-fit: contain;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+}
+
+.table thead th {
+  background: linear-gradient(90deg, #0ea5e9, #7c3aed);
+  color: #fff;
+  border: none;
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg,#0ea5e9,#6366f1);
+  border: none;
+}
+
+.navbar-dark.bg-primary {
+  background: linear-gradient(90deg,#0b69a3,#6d28d9) !important;
+}
+
+h2.h4 {
+  color: #0f172a;
+}
+
+.App-link {
+  color: #0ea5e9;
+}
+
+/* small responsive tweaks */
+@media (max-width: 576px) {
+  .brand-title { font-size: 1.1rem; }
+  .brand-logo { height: 36px; width: 36px; }
+}
